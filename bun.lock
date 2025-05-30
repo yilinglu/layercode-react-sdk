@@ -4,7 +4,7 @@
     "": {
       "name": "@layercode/react-sdk",
       "dependencies": {
-        "@layercode/js-sdk": "^1.0.18",
+        "@layercode/js-sdk": "^1.0.19",
       },
       "devDependencies": {
         "@rollup/plugin-commonjs": "^25.0.0",
@@ -25,7 +25,7 @@
 
     "@jridgewell/sourcemap-codec": ["@jridgewell/sourcemap-codec@1.5.0", "", {}, "sha512-gv3ZRaISU3fjPAgNsriBRqGWQL6quFx04YMPW/zD8XMLsU32mhCCbfbO6KZFLjvYpCZ8zyDEgqsgf+PwPaM7GQ=="],
 
-    "@layercode/js-sdk": ["@layercode/js-sdk@1.0.18", "", { "dependencies": { "@ricky0123/vad-web": "^0.0.24", "onnxruntime-web": "^1.21.1" } }, "sha512-eBVJT5k2vaPkzAms85MOKFq6w52yRZAo9lFd2LMKGQgpypUgKJzBLC0wRIG2opfmC8Xv3KzqI2FTYdGiMR5I6g=="],
+    "@layercode/js-sdk": ["@layercode/js-sdk@1.0.19", "", { "dependencies": { "@ricky0123/vad-web": "^0.0.24", "onnxruntime-web": "^1.21.1" } }, "sha512-nJ70+DSI3I+wMnsAh986Vw2JJLDF6m4p7H+qJbfj2/+8cdzJ6XsFMYmEfc7SH8UMEBdJfn+p+nAc0mi3QvA1rQ=="],
 
     "@protobufjs/aspromise": ["@protobufjs/aspromise@1.1.2", "", {}, "sha512-j+gKExEuLmKwvz3OgROXtrJ2UG2x8Ch2YZUxahh+s1F2HZ+wAceUNLkvy6zKCPVRkU++ZWQrdxsUeQXmcg4uoQ=="],
 
