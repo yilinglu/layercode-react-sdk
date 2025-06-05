@@ -97,12 +97,20 @@ const useLayercodePipeline = (
   const triggerUserTurnFinished = useCallback(() => {
     clientRef.current?.triggerUserTurnFinished();
   }, []);
+  const connect = useCallback(() => {
+    clientRef.current?.connect();
+  }, []);
+  const disconnect = useCallback(() => {
+    clientRef.current?.disconnect();
+  }, []);
 
   // Return methods and state
   return {
     // Methods
     triggerUserTurnStarted,
     triggerUserTurnFinished,
+    connect,
+    disconnect,
 
     // State
     status,
