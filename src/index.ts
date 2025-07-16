@@ -1,5 +1,5 @@
 import { useState, useEffect, useCallback, useRef } from 'react';
-import LayercodeClient from '@layercode/js-sdk';
+import LayercodeClient from '@dragon0/layercode-js-sdk';
 
 /**
  * Configuration options for the useLayercodePipeline hook.
